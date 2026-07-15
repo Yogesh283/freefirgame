@@ -46,7 +46,11 @@ public static class ProjectBrandingSetup
         // Android: adaptive icons (background + foreground)
         SetAndroidIcons(AndroidPlatformIconKind.Adaptive, tex, twoLayers: true);
 
-        // Splash screen logo
+        // Keep the splash sequence, remove Unity branding, and show only Shadow.
+        // Unity 6 allows this on every license tier, including Personal.
+        PlayerSettings.SplashScreen.show = true;
+        PlayerSettings.SplashScreen.showUnityLogo = false;
+
         if (sprite != null)
         {
             PlayerSettings.SplashScreen.logos = new[]
@@ -60,7 +64,7 @@ public static class ProjectBrandingSetup
         }
 
         AssetDatabase.SaveAssets();
-        Debug.Log("[Branding] App icon (default + Android) aur splash logo set ho gaye.");
+        Debug.Log("[Branding] Unity logo removed; Shadow app icon and splash logo applied.");
         return true;
     }
 
