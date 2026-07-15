@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f5f59c59a99ce4b4595ce405041470dd
+timeCreated: 1518437674
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Models/Materials/Striker/New_RedStriker_Mat.mat
+  uploadId: 229596

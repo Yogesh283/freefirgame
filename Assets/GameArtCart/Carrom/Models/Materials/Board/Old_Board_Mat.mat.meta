@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bcd43d979f8895342b0f663b68d1695c
+timeCreated: 1518420436
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Models/Materials/Board/Old_Board_Mat.mat
+  uploadId: 229596

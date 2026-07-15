@@ -1,0 +1,47 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# IDE generated files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+
+# Unity generated files
+*.apk
+*.aab
+*.unitypackage
+*.tmp
+*.bak
+*.pdb
+*.mdb
+*.pidb.meta
+sysinfo.txt
+build.log
+
+# Signing credentials must never be committed
+*.keystore
+*.jks
+**/signing/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini

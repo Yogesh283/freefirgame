@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1dbbc461aceee2a4b82b82e8db5453b9
+timeCreated: 1518437323
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Prefabs/Striker/Striker_Old.prefab
+  uploadId: 229596

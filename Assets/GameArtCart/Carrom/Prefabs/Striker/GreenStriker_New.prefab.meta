@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e8eb0edc9e627df45bfe775fbcdb96a3
+timeCreated: 1518437768
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Prefabs/Striker/GreenStriker_New.prefab
+  uploadId: 229596

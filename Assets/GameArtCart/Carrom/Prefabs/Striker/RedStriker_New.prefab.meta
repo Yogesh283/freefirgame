@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6c988be7ea3ba3f4c982a29efb4b7a22
+timeCreated: 1518437791
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Prefabs/Striker/RedStriker_New.prefab
+  uploadId: 229596

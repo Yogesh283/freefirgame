@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0e8bbe3692a9d78439a630fdc413be4b
+timeCreated: 1518437837
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Models/Materials/Striker/Old_GreenStriker_Mat.mat
+  uploadId: 229596

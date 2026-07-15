@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1122aa2daf5d5604f9c42df3f26fe1a4
+timeCreated: 1518422688
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Demo/Demo.unity
+  uploadId: 229596

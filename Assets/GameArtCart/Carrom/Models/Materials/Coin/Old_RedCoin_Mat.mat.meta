@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 97ba43387d434cb4288497c42eabb250
+timeCreated: 1518422522
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Models/Materials/Coin/Old_RedCoin_Mat.mat
+  uploadId: 229596

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d94dad1a31eea3c4cacc22cdb3693035
+timeCreated: 1518437215
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Models/Materials/Striker/Old_Striker_Mat.mat
+  uploadId: 229596

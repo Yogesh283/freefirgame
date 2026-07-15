@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3db29cdd6622f0e47bf360de55c839aa
+timeCreated: 1518422479
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Prefabs/Coin/BlackCoin_Old.prefab
+  uploadId: 229596

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f8d57898f74e1d14993d55a136ffc9ea
+timeCreated: 1518422347
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Prefabs/Coin/WhiteCoin_Old.prefab
+  uploadId: 229596

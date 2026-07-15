@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 81bcd03a2dfd36b4d998c1d54178de26
+timeCreated: 1518422611
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Prefabs/Coin/RedCoin_New.prefab
+  uploadId: 229596

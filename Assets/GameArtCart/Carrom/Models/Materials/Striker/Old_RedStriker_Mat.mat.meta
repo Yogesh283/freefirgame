@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f3a62b72e41f474478d52d263f461b72
+timeCreated: 1518437847
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Models/Materials/Striker/Old_RedStriker_Mat.mat
+  uploadId: 229596

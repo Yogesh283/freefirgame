@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 42d35db5482a4ba40a51e4cc8685f19f
+timeCreated: 1518420858
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Prefabs/Board/CarromBoard_Old.prefab
+  uploadId: 229596

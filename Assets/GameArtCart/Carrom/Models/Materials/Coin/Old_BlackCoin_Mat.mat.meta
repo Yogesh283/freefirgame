@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d864c52dd0ed26043baa520f443b8789
+timeCreated: 1518422427
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Models/Materials/Coin/Old_BlackCoin_Mat.mat
+  uploadId: 229596

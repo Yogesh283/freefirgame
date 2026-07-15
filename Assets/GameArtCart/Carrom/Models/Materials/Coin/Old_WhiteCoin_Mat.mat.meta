@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5c7122e2f3d3fe242a43eed487f3c8c0
+timeCreated: 1518422306
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Models/Materials/Coin/Old_WhiteCoin_Mat.mat
+  uploadId: 229596

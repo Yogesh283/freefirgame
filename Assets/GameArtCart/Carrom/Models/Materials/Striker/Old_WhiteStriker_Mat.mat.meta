@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0a241bcde7ceeb241acb9bc2297d6ae9
+timeCreated: 1518437828
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111389
+  packageName: Carrom
+  packageVersion: 1.0
+  assetPath: Assets/GameArtCart/Carrom/Models/Materials/Striker/Old_WhiteStriker_Mat.mat
+  uploadId: 229596
