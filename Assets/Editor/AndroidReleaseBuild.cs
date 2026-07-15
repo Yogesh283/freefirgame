@@ -79,7 +79,7 @@ public static class AndroidReleaseBuild
         PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel25;
         PlayerSettings.Android.targetSdkVersion = AndroidSdkVersions.AndroidApiLevelAuto;
 
-        PlayerSettings.Android.useAPKExpansionFiles = false;
+        PlayerSettings.Android.splitApplicationBinary = false;
         PlayerSettings.stripEngineCode = true;
         PlayerSettings.SetManagedStrippingLevel(NamedBuildTarget.Android, ManagedStrippingLevel.Medium);
 
