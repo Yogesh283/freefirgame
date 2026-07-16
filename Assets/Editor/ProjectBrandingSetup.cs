@@ -2,12 +2,13 @@ using UnityEngine;
 using UnityEditor;
 using UnityEditor.Android;
 using UnityEditor.Build;
+using UnityEditor.Build.Reporting;
 
 // Automatically applies the game logo as app icon (all platforms + Android adaptive icons)
 // and as splash screen logo. Runs once per editor session, or manually via the menu item.
 public static class ProjectBrandingSetup
 {
-    const string LogoPath = "Assets/MFPS/Content/Art/SplashLogo.jpeg";
+    const string LogoPath = "Assets/MFPS/Content/Art/ShadowLogo.png";
     const string SessionKey = "ProjectBrandingSetup_Applied";
 
     [InitializeOnLoadMethod]
@@ -50,6 +51,7 @@ public static class ProjectBrandingSetup
         // Unity 6 allows this on every license tier, including Personal.
         PlayerSettings.SplashScreen.show = true;
         PlayerSettings.SplashScreen.showUnityLogo = false;
+        PlayerSettings.SplashScreen.backgroundColor = Color.black;
 
         if (sprite != null)
         {
@@ -85,5 +87,27 @@ public static class ProjectBrandingSetup
                 icon.SetTexture(tex);
         }
         PlayerSettings.SetPlatformIcons(NamedBuildTarget.Android, kind, icons);
+    }
+}
+
+/// <summary>
+/// Re-applies branding immediately before every build. This prevents stale editor
+/// state from enabling the Unity logo or restoring an old JPEG splash asset.
+/// </summary>
+public sealed class ShadowBrandingBuildProcessor : IPreprocessBuildWithReport
+{
+    public int callbackOrder => int.MinValue;
+
+    public void OnPreprocessBuild(BuildReport report)
+    {
+        if (!ProjectBrandingSetup.ApplyBranding())
+        {
+            throw new BuildFailedException("Shadow PNG branding could not be applied.");
+        }
+
+        if (PlayerSettings.SplashScreen.showUnityLogo)
+        {
+            throw new BuildFailedException("Unity splash logo is still enabled. Build stopped.");
+        }
     }
 }
